@@ -33,7 +33,7 @@ newcolors<-colorRampPalette(colors=c("gray48","skyblue","yellow"))(256)
 
 
 # PCA among ground tissue samples for shr mutant
-tablecsv <-read.csv("./table.csv",row.names=1) #path
+tablecsv <-read.csv("./rdata/table.csv",row.names=1) #path
 colnames(tablecsv)
 dim(tablecsv)
 class(tablecsv)

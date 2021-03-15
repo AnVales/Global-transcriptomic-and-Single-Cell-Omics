@@ -33,7 +33,7 @@ newcolors<-colorRampPalette(colors=c("gray48","skyblue","yellow"))(256)
 
 
 # PART 1 #
-sco_data <- read.table("./SCOplanaria.txt", row.names=1) #path
+sco_data <- read.table("./rdata/SCOplanaria.rar/SCOplanaria.txt", row.names=1) #path
 # dim(sco_data) -> 24883  1871
 sco_matrix = as.matrix(sco_data)
 sco_sparse_matrix = Matrix(data=sco_matrix, sparse=TRUE)

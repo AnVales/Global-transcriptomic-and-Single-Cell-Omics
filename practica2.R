@@ -33,7 +33,7 @@ newcolors<-colorRampPalette(colors=c("gray48","skyblue","yellow"))(256)
 
 
 # PART 1 #
-tablecsv2 <-read.csv("./TableS5.csv",row.names=1) #path
+tablecsv2 <-read.csv("./rdata/TableS5.csv",row.names=1) #path
 colnames(tablecsv2)
 dim(tablecsv2)
 class(tablecsv2)
